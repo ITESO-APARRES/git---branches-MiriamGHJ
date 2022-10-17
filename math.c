@@ -9,3 +9,11 @@ int dobleInt(int a) {
 
     return a*2;
 }
+
+double dobleDouble(double a) {
+    if(a > MAX_DOUBLE) {
+        return -1;
+    }
+
+    return a*2;
+}
